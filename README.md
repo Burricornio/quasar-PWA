@@ -4,9 +4,19 @@ A Quasar Framework app
 User: burri@cornio.com
 Password: 123456
 
-## Launch json-server
+## Go to JSON-SERVER direcctory
+```bash
+   cd json-server
+```
+
+## Launch server
 ```bash
 json-server --watch db.json --port 4000 --middlewares auth.js
+```
+
+## Go to PWA app code direcctory
+```bash
+   cd pwa-news
 ```
 
 ## Install the dependencies
